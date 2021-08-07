@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/slide_img"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/langwid_2"/>
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:gravity="center"
+        android:text="Comprehensive learning resource"
+        android:textColor="#FF6600"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slide_descs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="500dp"
+        android:text="User-friendly interface and over 10,000 words/grammars divided into many topics from
+beginner to advanced. Help you prepare for JLPT tests and daily communication."
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
